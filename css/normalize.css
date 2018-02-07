@@ -503,7 +503,6 @@ footer{
 }
 
 hr.my-4 {
-    max-width: 50px;
     border-color: white;
 
 }
@@ -572,5 +571,14 @@ hr.my-4 {
 }
 
 #testoprimaimg{
-    font-size: 3rem;
+    font-size: 2rem;
+}
+
+#studiogiolai{
+    padding-bottom: 7rem;
+    padding-top: 7rem;
+}
+
+#email{
+
 }
