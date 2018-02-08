@@ -515,7 +515,7 @@ hr.my-4 {
 }
 
 #img-2{
-    background:url("../img/Funding-Banner.png");
+    background:url("../img/funding-1100x733.jpg");
     min-height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
@@ -577,9 +577,15 @@ hr.my-4 {
 #studiogiolai{
     padding-bottom: 7rem;
     padding-top: 7rem;
+    font-size: 1.75rem;
 }
 
 #betonicon{
     padding-left: 20%;
     max-width: 80%;
+}
+
+#iconset2{
+    padding-left: 10%;
+    padding-right: 10%;
 }
