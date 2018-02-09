@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title> www.studiogiolai.it - Studio Giolai Bassano</title>
-        <meta name="description" content="Studio Giolai Bassano del Grappa, da più di 25 anni accanto alle imprese.">
-        <meta name="author" content = "Christian B. Cabrera">
+        <meta name="description" content="Studio Giolai Bassano del Grappa, da più di 25 anni accanto alle imprese. Giolai Alessandro ti propone i suoi servizi di dottore commercialista a Bassano del Grappa. Indirizzo de Giolai Alessandro">
+        <meta name="author" content = "Christian B. Cabrera Christianb.cabrera@gmail.comm">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="Studio Giolai Bassano del Grappa Alessando Giolai">
 
@@ -16,7 +16,8 @@
         <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
-    <body>
+    <body id="body-override-bootstrap">
+    <div id="wrapperbody">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -26,7 +27,7 @@
 
         <nav class="navbar static-top" id="logoPrincipaleWrapper">
             <div class="animated fadeInRight container-fluid" >
-                <a href="https://www.google.com">
+                <a href="http://www.studiogiolai.it">
                     <img class="img-fluid" id="logoPrincipale" alt= "Footer Responsive" src="img/LogoGiolai.png"  />
                 </a>
             </div>
@@ -59,7 +60,7 @@
             <div class="container-fluid p-0">
 
                 <div class="row no-gutters">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" id="img-1"></div>
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img"><img src="img/planning.jpg" alt="img planning" id="img-1"></div>
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text img-fluid">
                         <h2 class="headtext pb-4 text-center">Pianificazione e Monitoraggio</h2>
                         <p class="lead mb-0">Lo Studio supporta gli operatori nella pianificazione e nel monitoraggio degli investimenti esteri, così come
@@ -67,7 +68,7 @@
                     </div>
                 </div>
                 <div class="row no-gutters">
-                    <div class="col-lg-6 text-white showcase-img img-fluid" id="img-2"></div>
+                    <div class="col-lg-6 text-white showcase-img img-fluid"><img src="img/funding-1100x733.jpg" alt="img funding" id="img-2"></div>
                     <div class="col-lg-6 my-auto showcase-text">
                         <h2 class="headtext pb-4 text-center">Attività di Funding</h2>
                         <p class="lead mb-0">Specifica esperienza è stata maturata nell’attività di funding di progetto a supporto di aziende impegnate in
@@ -91,7 +92,7 @@
 
 
 
-        <section class="icons text-center">
+        <div class="icons text-center">
 
             <div class="container">
                 <div class="row">
@@ -141,12 +142,10 @@
 
                 </div>
             </div>
-        </section>
+        </div>
 
 
-        <section class="icons text-center">
-
-
+        <div class="icons text-center">
             <div class="container-fluid" id="iconset2">
                 <div class="animated fadeInUp row">
 
@@ -154,7 +153,7 @@
                     <div class="col-lg">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex">
-                                <img class="img-fluid" alt= "Footer Responsive" src="img/dopla.jpg"  />
+                                <img class="img-fluid" id="dopla" alt= "Footer Responsive" src="img/dopla.jpg"  />
                             </div>
 
                         </div>
@@ -163,7 +162,7 @@
                     <div class="col-lg">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex">
-                                <img class="img-fluid" alt= "Footer Responsive" src="img/logo.jpg "/>
+                                <img class="img-fluid" id="artile" alt= "Footer Responsive" src="img/logo.jpg "/>
                             </div>
 
                         </div>
@@ -180,7 +179,7 @@
 
                 </div>
             </div>
-        </section>
+        </div>
 
 
         <div class="footer text-center">
@@ -208,6 +207,6 @@
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
+    </div>
     </body>
 </html>
