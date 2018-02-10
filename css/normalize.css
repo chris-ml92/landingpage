@@ -22,20 +22,31 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 
-body {
-
+html, #body-override-bootstrap {
+    max-width: 100%;
     width:100%;
     height: 100%;
-  margin: 0px;
+    margin: 0px;
     padding: 0px;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
     overflow-x: hidden;
-  font-family: "Georgia" !important;
+    font-family: "Georgia" !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    margin: 0;
+    box-sizing: border-box;
 }
 
+#wrapperbody{
+    overflow-x: hidden;
+}
 /**
  * Add the correct display in IE 9-.
  */
@@ -500,7 +511,7 @@ header.masthead .overlay {
 
 
 .headtext{
-    font-size:3rem;
+    font-size:2.5rem;
 }
 
 footer{
@@ -513,24 +524,21 @@ hr.my-4 {
 }
 
 #img-1{
-    background:url("../img/planning.jpg");
-    min-height: 30rem;
-    background-size:cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 20rem;
 }
 
 #img-2{
-    background:url("../img/funding-1100x733.jpg");
-    min-height: 30rem;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 20rem;
 }
 
 #img-3{
-    background:url("../img/team.jpg");
-    min-height: 30rem;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    min-height: 20rem;
 }
 
 .col-lg-6.order-lg-1.my-auto.showcase-text{
@@ -541,23 +549,10 @@ hr.my-4 {
     padding: 3rem;
 }
 
-
-
 .navbar .col-md-2 {
     max-width: 100%;
 }
-#logo1{
-    height: 50px;
-}
-#logo2 {
-    height: 50px;
-}
-#logo3 {
-    height: 50px;
-}
-#logo4 {
-    height: 50px;
-}
+
 
 #logoPrincipaleWrapper{
     padding:0 0 0 0;
@@ -573,6 +568,7 @@ hr.my-4 {
 
 #Clienti{
     font-family: "Georgia";
+    padding-bottom: 2em;
 }
 
 #testoprimaimg{
@@ -590,7 +586,16 @@ hr.my-4 {
     max-width: 80%;
 }
 
+#dopla{
+    padding-left: 18%;
+    }
+
+#artile{
+    padding-left: 13%;
+}
+
 #iconset2{
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 2em;
 }
